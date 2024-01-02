@@ -1,0 +1,28 @@
+{
+  "annotations": {
+    "changelogDate": "20240102135324"
+  },
+  "applications": ["jhipsterTestApplication"],
+  "entityTableName": "files",
+  "fields": [
+    {
+      "fieldName": "filePath",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "package",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "import",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "className",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Files",
+  "relationships": [],
+  "searchEngine": "no"
+}

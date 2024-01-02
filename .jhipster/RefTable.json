@@ -1,0 +1,55 @@
+{
+  "annotations": {
+    "changelogDate": "20240102135323"
+  },
+  "applications": ["jhipsterTestApplication"],
+  "entityTableName": "ref_table",
+  "fields": [
+    {
+      "fieldName": "refFiles",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dupClass",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "version",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "enums",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fQCN",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "jparser",
+      "fieldType": "String"
+    }
+  ],
+  "name": "RefTable",
+  "relationships": [
+    {
+      "otherEntityName": "files",
+      "relationshipName": "files",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "fQCN",
+      "relationshipName": "fQCN",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "jparser",
+      "relationshipName": "jparser",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}
