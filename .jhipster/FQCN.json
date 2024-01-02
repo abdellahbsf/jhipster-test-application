@@ -1,0 +1,20 @@
+{
+  "annotations": {
+    "changelogDate": "20240102135325"
+  },
+  "applications": ["jhipsterTestApplication"],
+  "entityTableName": "fqcn",
+  "fields": [
+    {
+      "fieldName": "fqcn",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "className",
+      "fieldType": "String"
+    }
+  ],
+  "name": "FQCN",
+  "relationships": [],
+  "searchEngine": "no"
+}

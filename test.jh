@@ -12,7 +12,7 @@ application {
 }
 
 entity RefTable {
-   Files String
+   RefFiles String
    DupClass String
    Version String
    Enums String
