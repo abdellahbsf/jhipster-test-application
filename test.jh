@@ -1,0 +1,49 @@
+
+application {
+  config {
+    baseName jhipsterTestApplication
+    applicationType monolith
+    packageName com.mycompany.myapp
+    authenticationType jwt
+    prodDatabaseType mysql
+    clientFramework angular
+  }
+  entities *
+}
+
+entity RefTable {
+   Files String
+   DupClass String
+   Version String
+   Enums String
+   FQCN String
+   Jparser String
+}
+
+entity Files {
+filePath String 
+package String
+import String
+className String
+}
+
+entity FQCN {
+fqcn String 
+className String
+}
+
+entity Jparser {
+filepath String 
+fqcn String
+className String
+}
+
+relationship OneToMany {
+  RefTable{Files} to Files
+}
+relationship OneToMany {
+  RefTable{FQCN} to FQCN
+}
+relationship OneToMany {
+  RefTable{Jparser} to Jparser
+}
